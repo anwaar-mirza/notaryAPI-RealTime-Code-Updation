@@ -13,7 +13,7 @@ driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()), 
 def task_starting_email(total_num):
     smtp = SMTP('smtp.gmail.com', 587)
     smtp.starttls()
-    smtp.login('anwaarmirza65@gmail.com', 'wicf zgki zvzc nton')
+    smtp.login('anwaarmirza65@gmail.com', 'password')
     receiver = ['anwaar@metaviz.pro', 'zainalijamil89@gmail.com']
     sender = 'anwaarmirza65@gmail.com'
     subject = 'API Scraping Start'
